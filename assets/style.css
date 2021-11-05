@@ -711,14 +711,14 @@ h1 {
     display: none;
   }
   .container-GD-2 {
-    font-size: normal;
-    width: 456px;
+    font-size: small;
+    width: 253px;
     position: absolute;
     top: 490%;
   }
 
   .container-GD-2-semi {
-    width: 445px;
+    width: 253px;
     position: relative;
     top: -6%;
     border-color: transparent;
@@ -782,24 +782,25 @@ h1 {
   position: relative;
 }
 
+/*====== MY PHONE SIZE OOO =========*/
+
 @media screen and (max-width: 700px){
   .GD-form-2 {
     display: none;
   }
   .container-GD-2 {
-    font-size: normal;
+    font-size: small;
     width: 390px;
     position: absolute;
     top: 490%;
   }
 
   .container-GD-2-semi {
-    width: 470px;
+    width: 360px;
     position: relative;
     top: -6%;
     border-color: transparent;
     right: 1%;
-    display: none;
   }
 
   .GD-form {
@@ -845,15 +846,18 @@ h1 {
   .GD-form-2 {
     display: none;
   }
+  .menu-bar nav {
+  }
+
   .container-GD-2 {
-    font-size: normal;
-    width: 360px;
+    font-size: small;
+    width: 253px;
     position: absolute;
-    top: 490%;
+    top: 460%;
   }
 
   .container-GD-2-semi {
-    width: 445px;
+    width: 253px;
     position: relative;
     top: -6%;
     border-color: transparent;
@@ -874,13 +878,13 @@ h1 {
   .footer {
     position: absolute;
     top: 540%;
-    width: 360px;
+    width: 252px;
   }
   .footer p {
     text-align: center;
   }
   .container-GD {
-    width: 360px;
+    width: 253px;
     height: 500px;
     border: 1px solid rgb(197, 185, 185);
     border-radius: 10px;
@@ -888,7 +892,7 @@ h1 {
     transition: 0.5s;
   }
   .container-GD-1 {
-    width: 360px;
+    width: 253px;
     height: 1500px;
     border: 1px solid rgb(197, 185, 185);
     border-radius: 10px;
