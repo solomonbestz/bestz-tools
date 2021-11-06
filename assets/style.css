@@ -301,7 +301,8 @@ nav .content .links{
   }
   .footer .our-app-1 {
     position: relative;
-    right: 10%;
+    right: 9%;
+    font-size: smaller;
   }
   .footer .app-logo {
     right: 10%;
@@ -309,7 +310,7 @@ nav .content .links{
   }
   .footer .Footer-CP {
     position: relative;
-    left: 24%;
+    left: 2%;
   }
 }
 
@@ -396,55 +397,6 @@ nav .content .links{
     padding-right: 30px;
   }
 }
-/*------------- Menu Bar STYLING ----------------*/
-
-/* .menu-bar {
-    background: rgb(25, 75, 151);
-    text-align: center;
-    
-}
-.menu-bar ul {
-    list-style: none;
-    display: inline-flex;
-    margin-left: 50%;
-}
-
-.menu-bar a {
-    color: #fff;
-    text-decoration: none;
-    transition: all 1s ease;
-    font-size: small;
-    font-weight: bolder;
-    
-}
-.menu-bar ul li {
-    width: auto;
-    margin: 20px;
-}
-
-.menu-bar a:hover{
-    border: 10px solid transparent;
-    /* border-radius: 50px; */
-    /* background: transparent;
-    
-}
-
-.menu-bar .fa{
-    margin-right: 5px;
-    color: cadetblue;
-    display: none;
-}
-
-.menu-bar .img-logo {
-    display: inline-flex;
-    position: absolute;
-    left: 0;
-    top: -3%;
-    float: left;
-    padding-top: -200%;
-    cursor: pointer;
-    
-} */
 
 /*--------------STYLING FOR OBJECT IN PAGE --------------*/
 
@@ -530,13 +482,6 @@ h1 {
   position: relative;
   bottom: -30%;
 }
-
-/* .line {
-  width: 200px;
-  border: 1px solid rgb(197, 185, 185);
-  left: 15%;
-  position: absolute;
-} */
 
 .form-2 {
   width: 400px;
@@ -792,119 +737,7 @@ h1 {
   position: relative;
 }
 
-/* ====== MY PHONE SIZE OOO ========= */
-
-/*@media screen and (max-width: 700px){
-  .GD-form-2 {
-    display: none;
-  }
-  .container-GD-2 {
-    font-size: small;
-    width: 390px;
-    position: absolute;
-    top: 490%;
-  }
-
-  .container-GD-2-semi {
-    width: 360px;
-    position: relative;
-    top: -6%;
-    border-color: transparent;
-    right: 1%;
-  }
-
-  .GD-form {
-    position: absolute;
-    top: 382%;
-    height: 450px;
-    width: 390px;
-    right: 1%;
-    border-radius: 10px;
-  }
-  .typed-text{
-    display: none;
-  }
-  .footer {
-    position: absolute;
-    top: 540%;
-    width: 390px;
-    left: 2%;
-  }
-  .footer p {
-    text-align: center;
-  }
-  .container-GD {
-    width: px;
-    height: 500px;
-    border: 1px solid rgb(197, 185, 185);
-    border-radius: 10px;
-    margin: 3%;
-    transition: 0.5s;
-  }
-  .container-GD-1 {
-    width: 390px;
-    height: 1500px;
-    border: 1px solid rgb(197, 185, 185);
-    border-radius: 10px;
-    margin: 3%;
-  }
-}*/
-
-/*======== STYLING FOR IPHONE 6,7,8  ==========*/
-
-/* @media screen and (max-width: 900px){
-  .GD-form-2 {
-    display: none;
-  }
-
-  .container-GD-2 {
-    font-size: small;
-    width: 400px;
-    position: absolute;
-    top: 460%;
-    height: 300px;
-  }
-
-  .container-GD-2-semi {
-    width: 400px;
-    position: relative;
-    top: -6%;
-    border-color: red;
-    right: 2%;
-  }
-
-  .GD-form {
-    position: absolute;
-    top: 382%;
-    height: 450px;
-    width: 360px;
-    right: 25%;
-    border-radius: 10px;
-  }
-  .typed-text{
-    display: none;
-  }
-  .footer {
-    position: absolute;
-    top: 540%;
-    width: 400px;
-  }
-  .footer p {
-    text-align: center;
-  }
-  .container-GD {
-    width: 400px;
-    height: 500px;
-    border: 1px solid rgb(197, 185, 185);
-    border-radius: 10px;
-    margin: 3%;
-    transition: 0.5s;
-  }
-  .container-GD-1 {
-    width: 253px;
-    height: 1500px;
-    border: 1px solid rgb(197, 185, 185);
-    border-radius: 10px;
-    margin: 3%;
-  }
-} */
+.footer .Footer-CP {
+  position: relative;
+  text-align: center;
+}
