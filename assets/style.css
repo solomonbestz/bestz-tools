@@ -242,12 +242,13 @@ nav .content .links{
   }
 
   .row{
-    width: 120%
+    width: 10%;
+    height: 10%;
   }
 
   .contain {
-    max-width: 110%;
-    padding-bottom:  120%;
+    max-width: 89%;
+    padding-bottom:  450%;
   }
 
   .contain-2 {
@@ -314,6 +315,9 @@ nav .content .links{
     position: relative;
     right: 6%;
   }
+  /* SMALL PHONE CIRCLES  */
+  
+
 }
 
 @media screen and (max-width: 900px){
