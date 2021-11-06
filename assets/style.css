@@ -255,6 +255,11 @@ nav .content .links{
     display: none;
   }
 
+  .second-block p,
+  .second-block h1 {
+    display: none;
+  }
+
   .first-block  h1{
     margin-top: 10%;
     
@@ -307,7 +312,7 @@ nav .content .links{
     display: none;
   }
   .footer .app-logo {
-    left: 18%;
+    left: 200%;
     width: 40%;
     position: relative;
   }
