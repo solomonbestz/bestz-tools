@@ -236,8 +236,6 @@ nav .content .links{
     font-size: small;
     left: -9.0%;
     top: -1%;
-    max-width: 105%;
-    padding: 0 20px;
   }
   .typed-text {
     display: none;
@@ -314,7 +312,7 @@ nav .content .links{
     text-align: center;
     position: absolute;
     left: 25%;
-    bottom: -340%;
+    bottom: -335%;
   }
   .footer .our-app-1 {
     position: relative;
