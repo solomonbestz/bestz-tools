@@ -225,6 +225,8 @@ nav .content .links{
     padding-right: 8%;
     position: relative;
     height: 0px;
+    max-width: 105%;
+    padding: 0 20px;
   }
 
   .container-GD-2-semi {
@@ -234,6 +236,8 @@ nav .content .links{
     font-size: small;
     left: -9.0%;
     top: -1%;
+    max-width: 105%;
+    padding: 0 20px;
   }
   .typed-text {
     display: none;
