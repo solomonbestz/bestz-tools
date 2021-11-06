@@ -209,7 +209,7 @@ nav .content .links{
 
 @media screen and (max-width: 1250px){
   .menu-bar nav{
-    max-width: 77%;
+    max-width: 75%;
     padding: 0 20px;
   }
   .GD-form{
@@ -232,11 +232,11 @@ nav .content .links{
     display: none;
   }
   .container-GD {
-    max-width: 110%;
+    max-width: 105%;
     padding: 0 20px;
   }
   .container-GD-1 {
-    max-width: 110%;
+    max-width: 105%;
     padding: 0 20px;
   }
 
