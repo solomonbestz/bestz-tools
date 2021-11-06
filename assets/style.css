@@ -296,21 +296,23 @@ nav .content .links{
   }
   .footer .our-app{
     top: 10%;
-    left: 24%;
+    left: 26%;
     position: absolute;
   }
   .footer .our-app-1 {
     position: relative;
     right: 9%;
     font-size: smaller;
+    display: none;
   }
   .footer .app-logo {
-    right: 10%;
+    left: 18%;
+    width: 40%;
     position: relative;
   }
   .footer .Footer-CP {
     position: relative;
-    left: 2%;
+    right: 6%;
   }
 }
 
