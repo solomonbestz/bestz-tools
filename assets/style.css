@@ -290,9 +290,9 @@ nav .content .links{
     display: none;
   }
   .footer {
-    width: 78%;
+    width: 85%;
     position: relative;
-    left: 2%;
+    left: 5%;
   }
   .footer .our-app{
     top: 10%;
