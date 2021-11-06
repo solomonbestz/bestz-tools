@@ -330,6 +330,14 @@ nav .content .links{
     position: relative;
     right: 6%;
   }
+
+  .footer .our-app-home{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    bottom: -245%;
+    color: white;
+  }
   /* SMALL PHONE CIRCLES  */
   
 
