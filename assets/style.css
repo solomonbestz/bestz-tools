@@ -335,8 +335,9 @@ nav .content .links{
 
   
   .footer {
-    max-width: 90%;
+    max-width: 100%;
     position: relative;
+    overflow: hidden;
 
   }
   .footer .our-app{
