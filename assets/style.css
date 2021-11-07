@@ -246,10 +246,10 @@ nav .content .links{
 
   .container-GD-2-semi {
     max-width: 100%;
-    height: 50%;
-    padding: 0 20px;
+    height: 45%;
+    padding: 0 0px;
     font-size: small;
-    left: -9.0%;
+    left: -1.0%;
     top: -1%;
   }
   .typed-text {
@@ -265,7 +265,7 @@ nav .content .links{
   }
 
 
-  /*===== POSITION OF FIRST CONTAINER ======== */
+  /*===== POSITION OF FIRST CONTAINER (HOME) ======== */
 
   .row{
     max-width: 100%;
@@ -299,7 +299,7 @@ nav .content .links{
   }
 
 
-  /*===== POSITION OF SECOND CONTAINER ======== */
+  /*===== POSITION OF SECOND CONTAINER (HOME) ======== */
   
   .contain-2 {
     display: none;
