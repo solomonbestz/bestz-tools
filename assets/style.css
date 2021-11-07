@@ -321,9 +321,7 @@ nav .content .links{
     display: none;
   }
   .footer .app-logo {
-    left: 300%;
-    width: 40%;
-    right: 6%;
+    padding: 0 90px;
     position: relative;
   }
   .footer .Footer-CP {
@@ -621,7 +619,7 @@ h1 {
 } */
 
 .GoogleDrive .ggg {
-  font-size: 3rem;
+  font-size: em;
   padding: 0.5rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
@@ -706,8 +704,7 @@ h1 {
   bottom: -11%;
 }
 
-
-
+/* ========SIDE BAR ADS============== */
 
 .GD-form {
   width: 300px;
