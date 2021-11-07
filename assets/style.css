@@ -209,7 +209,7 @@ nav .content .links{
 
 @media screen and (max-width: 1250px){
   .menu-bar nav{
-    max-width: 75%;
+    max-width: 77.3%;
     padding: 0 20px;
   }
 
@@ -312,7 +312,7 @@ nav .content .links{
     text-align: center;
     position: absolute;
     left: 25%;
-    bottom: -320%;
+    bottom: -310%;
   }
   .footer .our-app-1 {
     position: relative;
