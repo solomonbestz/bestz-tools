@@ -757,19 +757,21 @@ h1 {
   text-align: center;
 }
 
+.section-2 {
+  position: fixed;
+}
+
 .GD-form-2 {
   width: 400px;
   height: 600px;
+  border: 1px solid rgb(0, 0, 0);
   position: absolute;
-  border: 1px solid rgb(197, 185, 185);
-  border-radius: 10px;
-  margin: 0 auto;
-  right: 0;
-  bottom: -160%;
+  top: 820px;
+  left: 940px;
 }
 
 
-.GD-form-2 h1 {
+/* .GD-form-2 h1 {
   color: #5c4a4a;
   opacity: 10%;
   text-align: center;
@@ -787,7 +789,7 @@ h1 {
 .GD-form-2 img {
   bottom: -30%;
   position: relative;
-}
+} */
 
 .footer .Footer-CP {
   position: relative;
@@ -837,4 +839,88 @@ container-GD-1{
   height: 0;
   overflow: hidden;
   transition: all 1s;
+}
+
+/* ===========STYLING FOR G-DRIVE MAIN WORK =========== */
+
+
+.panel-title svg{ 
+  vertical-align: middle;
+  padding-right: 12px;
+} 
+.panel-body { 
+  margin: 0px 45px 0 18px; 
+}
+.panel-primary { 
+  border-top:none; 
+  border:1px solid #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05)
+  ;border-radius: 4px; 
+} 
+.Drive-container{ 
+  padding-right: 15px; 
+  padding-left: 15px; 
+  margin-right: auto; 
+  margin-left: auto;
+} 
+.Dbtn-primary { 
+  color: #fff; 
+  background-color: #1f59a4; 
+  padding: 6px 12px;
+  text-align: center; 
+  vertical-align: middle; 
+  border:0; 
+  margin-top: 12px; 
+} 
+.form-control {
+  display: block; 
+  width: 100%; 
+  height: 34px; 
+  padding: 6px 12px; 
+  font-size: 14px; 
+  line-height: 1.42857143; 
+  color: #555; 
+  background-color: #fff; 
+  background-image: none; 
+  border: 1px solid #222; 
+  border-radius: 4px; 
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); 
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075); 
+  -webkit-transition: border-color ease-in-out .15s,
+  -webkit-box-shadow ease-in-out .15s; 
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+}
+
+.form-group { 
+  margin-bottom: 50px; 
+}
+
+.panel-title {
+  background: #197fdd; 
+  padding: 5px 12px;
+  display: flex; 
+  vertical-align: middle;
+  border: 1px solid #4688F4; 
+  text-align: left;
+  color:#fff; 
+  font-size: 18px; 
+  box-shadow: 0 1px 1px rgba(0,0,0,.05); 
+} 
+#mainpanel { 
+  margin-top: 70px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* ===========STYLING FOR G-DRIVE instructions =========== */
+
+.G-D-instruction-block {
+  max-width: 105%;
+    padding: 0 20px;
+    border: 1px solid transparent;
+    margin: 3%;
+    text-align: left;
 }
