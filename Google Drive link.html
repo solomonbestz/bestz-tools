@@ -98,18 +98,19 @@
               </svg>Google Drive Direct Download Link Generator</h1>
                   </div>
                   <div class="panel-body">
-                    <form>
+                    <form onsubmit="return false">
                       <div class="form-group">
                         <label for="sharelink">Share link</label>
-                        <input type="text" class="form-control" id="sharelink" placeholder="https://drive.google.com/file/d/10E8Zp1SIyD90V6skerH8lIYyEqCCPAIF/view?usp=sharing" autofocus="true">
-                      <button id="copylinkbtn" class="Dbtn Dbtn-primary" type="button" data-clipboard-target="#downloadlink" disabled>Generate Link</button>
+                        <input type="text" class="form-control" id="sharelink" placeholder="paste your google drive link here" autofocus="true">
+                      <button onclick="generatebtn()" class="Dbtn Dbtn-primary" >Generate Link</button>
                       </div>
                       <div class="form-group">
                         <label for="downloadlink">Download link</label>
                         <div class="input-group">
                           <input type="text" class="form-control" id="downloadlink" readonly>
                           <span class="input-group-btn">
-                      <button id="copylinkbtn" class="Dbtn Dbtn-primary" type="button" data-clipboard-target="#downloadlink" disabled>Copy link</button>
+                      <button onclick="copybtn()" class="Dbtn Dbtn-primary">Copy link</button>
+                      <p id="alert-copy"></p>
                     </span>
                         </div>
                       </div>
@@ -191,7 +192,7 @@
 
 </section>
 
-
+  <script src="drive.js"></script>
   <script class="typo" src="main.js"></script>
 
   </div>
@@ -229,6 +230,5 @@
       loop: true
     });
   </script> -->
-
 </body>
 </html>

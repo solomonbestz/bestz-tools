@@ -726,6 +726,19 @@ h1 {
 .GoogleDrive p span.cursor.typing {
   animation: none;
 }
+/* STYLING THE COPY LINK ALERT */
+#alert-copy{
+  border: 2px solid black;
+  display: none;
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 20px;
+  margin-left: 400px;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
